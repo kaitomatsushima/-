@@ -102,31 +102,3 @@
 | Read（読み取り・取得） | 食材一覧表示・食材検索 |
 | Update（更新・変更） | 食材情報更新 |
 | Delete（削除） | 食材削除 |
-
-## 実行方法
-
-### 必要な環境
-
-- Java 17
-- Eclipse
-
-### Eclipseでの実行
-
-1. このリポジトリをクローンまたはダウンロードする
-2. Eclipseを起動する
-3. `File`から`Import`を選択する
-4. `General`の`Existing Projects into Workspace`を選択する
-5. ダウンロードしたプロジェクトの`MyFridge`フォルダを指定する
-6. `src/fridge/Main.java`を開く
-7. `Run As`から`Java Application`を選択する
-
-## 操作方法
-
-アプリを起動すると、以下のメニューが表示されます。
-
-```text
-1. 食材を登録する
-2. 食材を表示する
-3. 食材を更新する
-4. 食材を削除する
-0. 終了
